@@ -1,0 +1,134 @@
+/* color links */
+.nav-links a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #00000060;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+nav a.active {
+  color: white;
+}
+
+.nav-links li {
+  list-style: none;
+}
+.nav-links {
+  display: flex;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffba3c;
+  text-decoration-thickness: 5px;
+}
+
+body {
+  margin: 0;
+}
+body,
+html {
+  height: 100%;
+}
+
+.background {
+  background-image: url(images/galaxybg.jpg);
+  /* height: 100%; */
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  background-size: 100% 100%;
+  height: max-content;
+}
+
+.company-details {
+  overflow: hidden;
+  padding: 1em 1em;
+  display: flex;
+  justify-content: center;
+  background: #e3f0f74c;
+  text-align: center;
+  margin-top: 5em;
+}
+.company-details span {
+  color: white;
+}
+
+#footer #col1,
+#footer #col2,
+#footer #col3 {
+  float: left;
+  width: 320px;
+  padding: 0px 40px 0px 40px;
+}
+
+#footer #icon {
+  display: block;
+  margin-bottom: 1em;
+  font-size: 3em;
+}
+
+/*** Adding Styles to Copyright Div ***/
+.copyright {
+  overflow: hidden;
+  padding: 3em 0em;
+  border-top: 20px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+.copyright p {
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.copyright a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Styling Social Icons */
+ul.contact {
+  margin: 0;
+  padding: 2em 0em 0em 0em;
+  list-style: none;
+}
+
+ul.contact li {
+  display: inline-block;
+  padding: 0em 0.1em;
+  font-size: 1em;
+}
+
+ul.contact li .icon {
+  color: #fff;
+  display: inline-block;
+  /* background: #4c93b9; */
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.main_text {
+  color: #ffffff;
+  font-weight: bolder;
+  align-items: center;
+  text-align: center;
+  padding-top: 5%;
+  font-size: larger;
+}
+.mainimg {
+  width: 20%;
+}
